@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For Tannu ji ❤️</title>
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{
+    font-family:Georgia,"Times New Roman",serif;
+    background:#120b18;
+    color:#fff7fb;
+    overflow-x:hidden;
+  }
+  #hearts{position:fixed;inset:0;pointer-events:none;z-index:20;overflow:hidden}
+  .heart{position:absolute;bottom:-30px;animation:floatUp linear forwards;opacity:.75}
+  @keyframes floatUp{to{transform:translateY(-110vh) rotate(25deg);opacity:0}}
+
+  section{
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:70px 22px;
+    position:relative;
+    overflow:hidden;
+  }
+  .hero{
+    text-align:center;
+    background:
+      radial-gradient(circle at 50% 25%,rgba(255,115,170,.20),transparent 32%),
+      linear-gradient(145deg,#160d20,#32132a 55%,#100914);
+  }
+  .glow{
+    position:absolute;width:420px;height:420px;border-radius:50%;
+    background:rgba(255,89,158,.11);filter:blur(70px)
+  }
+  .hero h1{font-size:clamp(3.2rem,12vw,7rem);letter-spacing:-3px}
+  .hero p{font-size:1.15rem;opacity:.82;margin:18px auto 32px;max-width:620px;line-height:1.7}
+  .small{font-family:Arial,sans-serif;text-transform:uppercase;letter-spacing:4px;font-size:.72rem;opacity:.65}
+  button{
+    border:0;border-radius:999px;padding:15px 28px;background:#ff6fa8;color:white;
+    font-weight:700;cursor:pointer;font-size:1rem;box-shadow:0 10px 35px rgba(255,80,145,.25);
+    transition:.25s transform,.25s box-shadow;
+  }
+  button:hover{transform:translateY(-3px);box-shadow:0 15px 40px rgba(255,80,145,.4)}
+  .content{width:min(850px,100%);text-align:center;z-index:2}
+  .eyebrow{font-family:Arial,sans-serif;color:#ff9fc5;text-transform:uppercase;letter-spacing:3px;font-size:.75rem;margin-bottom:15px}
+  h2{font-size:clamp(2.1rem,7vw,4.2rem);margin-bottom:25px}
+  .message{
+    font-size:clamp(1.12rem,3vw,1.45rem);line-height:1.9;color:#f9eaf1;
+    text-align:left;background:rgba(255,255,255,.055);border:1px solid rgba(255,255,255,.09);
+    border-radius:28px;padding:30px;box-shadow:0 20px 70px rgba(0,0,0,.2)
+  }
+  .quote{
+    font-size:clamp(1.4rem,4vw,2.1rem);line-height:1.65;font-style:italic;
+    padding:35px 10px;color:#ffd5e5
+  }
+  .divider{width:55px;height:2px;background:#ff78ac;margin:28px auto;opacity:.7}
+  .night{
+    background:
+      radial-gradient(circle at 50% 18%,rgba(140,120,255,.18),transparent 28%),
+      linear-gradient(#090b22,#15102a 60%,#0b0713);
+  }
+  .stars{position:absolute;inset:0;background-image:
+    radial-gradient(#fff 1px,transparent 1px),radial-gradient(#fff 1px,transparent 1px);
+    background-size:90px 90px,140px 140px;background-position:10px 20px,50px 70px;opacity:.18}
+  .photo-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:28px}
+  .photo{
+    aspect-ratio:1;border-radius:20px;border:1px dashed rgba(255,255,255,.25);
+    display:flex;align-items:center;justify-content:center;text-align:center;padding:15px;
+    color:#cdbbc5;background:rgba(255,255,255,.04);font-family:Arial,sans-serif;font-size:.85rem
+  }
+  .final{
+    background:radial-gradient(circle at 50% 50%,rgba(255,76,147,.20),transparent 35%),#170a15;
+    text-align:center;
+  }
+  .final h2{font-size:clamp(2.7rem,10vw,6rem)}
+  .signature{margin-top:28px;font-size:1.15rem;color:#ffc2d9}
+  .reveal{opacity:0;transform:translateY(35px);transition:1s ease}
+  .reveal.show{opacity:1;transform:none}
+  .tap{margin-top:30px;font-family:Arial,sans-serif;font-size:.75rem;opacity:.55}
+  @media(max-width:650px){.message{padding:22px}.photo-grid{grid-template-columns:1fr}.photo{aspect-ratio:1.5}}
+</style>
+</head>
+<body>
+
+<div id="hearts"></div>
+
+<section class="hero">
+  <div class="glow"></div>
+  <div class="content reveal">
+    <div class="small">A little something for</div>
+    <h1>Tannu ji❤️</h1>
+    <p>There are some things that are easier to write than to say… so I made you this.</p>
+    <button onclick="document.getElementById('birthday').scrollIntoView()">Open your surprise 🎁</button>
+    <div class="tap">scroll whenever you're ready ✨</div>
+  </div>
+</section>
+
+<section id="birthday">
+  <div class="content reveal">
+    <div class="eyebrow">Chapter 01 · Your day</div>
+    <h2>Happy Birthday, Jannu 🎂</h2>
+    <div class="divider"></div>
+    <div class="message">
+      Happy birthday jannu. Thank you for making my day brighter just by being in it. ❤️
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="content reveal">
+    <div class="eyebrow">Chapter 02 · My favourite part</div>
+    <h2>Every little moment with you</h2>
+    <div class="message">
+      I cherish every single moment I get to spend with youu. You are the favourite part of my day.
+      <br><br>
+      It's like ki main aankhe band karta hun toh tumhe dekhta hun, aur aankhe kholta hun toh tumhe dekhna chahta hun. ❤️
+    </div>
+  </div>
+</section>
+
+<section class="night">
+  <div class="stars"></div>
+  <div class="content reveal">
+    <div class="eyebrow">Chapter 03 · That night</div>
+    <h2>The question I couldn't answer properly</h2>
+    <div class="message">
+      That night when we both confessed our feelings to each other, you asked ki main aapse itna pyaar kyun karta hun.
+      I couldn't say anything properly then.
+      <br><br>
+      But today I wanna say this:
+      <div class="quote">“Mere liye aap ho, isliye pyaar ka wajood hai. Agar mere liye pyaar ka koi doosra naam hai, toh woh Tannu hai.”</div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="content reveal">
+    <div class="eyebrow">Chapter 04 · The first time</div>
+    <h2>Then there was you… ✨</h2>
+    <div class="message">
+      I remember the first time seeing you and how fast my heart started beating.
+      Ek woh din tha aur aaj ka din hai — all my eyes look for is someone whose name starts with “S”.
+      <br><br>
+      I don't know aapka kya jaadu chal gaya hai mujhpe, but the moment I see you, everything around you gets blurry.
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="content reveal">
+    <div class="eyebrow">Chapter 05 · If I could choose</div>
+    <h2>All the tomorrows</h2>
+    <div class="message">
+      It may be too early to say it, but I want to spend the rest of my life with you.
+      Watch you grow old with me. Watch you become everything you dream of.
+      Support you through your ups and downs.
+      Watch a cricket match with you.
+      And most importantly, I want you to always be happy. 🫶
+    </div>
+  </div>
+</section>
+
+<section class="night">
+  <div class="stars"></div>
+  <div class="content reveal">
+    <div class="eyebrow">Chapter 06 · The prayer</div>
+    <h2>Maybe you were my answer 🌙</h2>
+    <div class="message">
+      I don't know if I've told you this before, but you are the answer to my prayers.
+      <br><br>
+      i dont know i have told you this before but you the answers to my prayers, maine aaj tak god ji se direct kabhi kisi chiz ke liye beg nhi kiya tha, but uss raat jab mera birthday tha or hamari baat ho rhi thi, main chhat pe tha and i looked upto the sky and was listening to "manga jo meraaa hai jataa kya teraa maine konsii tujhse jannat mang lii" , i said ki " bhagwan agar aap sun rhe jo toh usko mujhse luve kara doo, mujhe or koi nhi chahiye agar wo mere naseeb mien nhi toh usko mere naseeb mien lihkooo dooo per, mujhe usse milaa do, warna main aunga waha kabhi na kabhi or tab apko jab dena padegaaa".
+      <br><br>
+      It was kinda childish, but I genuinely begged for you like a kid that day.
+      And somehow, here you are. ❤️
+    </div>
+  </div>
+</section>
+
+<section class="final">
+  <div class="content reveal">
+    <div class="eyebrow">And finally…</div>
+    <h2>Happiest Birthday, Tannu ji ❤️</h2>
+    <div class="divider"></div>
+    <div class="message">
+      I louve you more than anything.
+      <br><br>
+      Have a wonderful, amazing, beautiful day.
+      I hope this year brings you everything you've been wishing for,
+      and I hope I get to be there for all the little moments along the way.
+      <br><br>
+      <strong>Happy Birthday, my jannu. ❤️</strong>
+    </div>
+    <div class="signature">— from someone who is very, very lucky to have you</div>
+  </div>
+</section>
+
+<script>
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(e => { if(e.isIntersecting) e.target.classList.add('show'); });
+  }, {threshold:.12});
+  document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+  const hearts = document.getElementById('hearts');
+  const symbols = ['♥','♡','❤','✦'];
+  function makeHeart(){
+    const h=document.createElement('span');
+    h.className='heart';
+    h.textContent=symbols[Math.floor(Math.random()*symbols.length)];
+    h.style.left=Math.random()*100+'%';
+    h.style.fontSize=(12+Math.random()*22)+'px';
+    h.style.animationDuration=(5+Math.random()*6)+'s';
+    hearts.appendChild(h);
+    setTimeout(()=>h.remove(),12000);
+  }
+  setInterval(makeHeart,850);
+  for(let i=0;i<10;i++) setTimeout(makeHeart,i*250);
+</script>
+</body>
+</html>
